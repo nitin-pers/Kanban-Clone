@@ -23,7 +23,7 @@ const App = () => {
       text1: 'Low',
       text2: 'Onboarding Illustration',
       
-      imageUrl: '../public/static/Onprogress1.jpg'
+      imageUrl: '../static/Onprogress1.jpg'
     },
     {
       id: 5,
@@ -31,12 +31,12 @@ const App = () => {
       text1: 'Low',
       text2: 'Moodboard',
   
-      imageUrl: '../public/static/onprogress2.jpg'
+      imageUrl: '../static/onprogress2.jpg'
     }
   ]);
 
   const [doneItems, setDoneItems] = useState([
-    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../public/static/onprogress3.jpg' },
+    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../static/onprogress3.jpg' },
     { id: 8, title: 'Task 8', text1: 'Completed', text2: 'Design System', description: 'It just needs to adapt the UI from what you did before, but with a more user-friendly interface. ' }
   ]);
 
@@ -140,7 +140,7 @@ const App = () => {
         <div className="w-[38px] h-[38px] bg-blue-500 rounded-full flex items-center justify-center">
           <img
             className="rounded-full w-[38px] h-[38px]"
-            src="../public/static/Profile.jpg"
+            src="../static/Profile.jpg"
             alt="Profile"
           />
         </div>
