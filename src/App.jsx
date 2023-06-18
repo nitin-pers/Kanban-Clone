@@ -23,7 +23,7 @@ const App = () => {
       text1: 'Low',
       text2: 'Onboarding Illustration',
       
-      imageUrl: '../src/assets/Onprogress1.png'
+      imageUrl: '../src/assets/Onprogress1.jpg'
     },
     {
       id: 5,
@@ -31,12 +31,12 @@ const App = () => {
       text1: 'Low',
       text2: 'Moodboard',
   
-      imageUrl: '../src/assets/onprogress2.png'
+      imageUrl: '../src/assets/onprogress2.jpg'
     }
   ]);
 
   const [doneItems, setDoneItems] = useState([
-    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../src/assets/onprogress3.png' },
+    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../src/assets/onprogress3.jpg' },
     { id: 8, title: 'Task 8', text1: 'Completed', text2: 'Design System', description: 'It just needs to adapt the UI from what you did before, but with a more user-friendly interface. ' }
   ]);
 
