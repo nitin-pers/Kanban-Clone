@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
 
-import ProfileImage from '../src/assets/Profile.jpg';
-import ProfileImage1 from '../src/assets/image1.jpg';
-import ProfileImage2 from '../src/assets/image2.jpg';
-import ProfileImage3 from '../src/assets/image3.jpg';
+import ProfileImage from '../public/static/Profile.jpg';
+import ProfileImage1 from '../public/static/image1.jpg';
+import ProfileImage2 from '../public/static/image2.jpg';
+import ProfileImage3 from '../public/static/image3.jpg';
 
 import './index.css';
 import SideBar from './Components/SideBar';
@@ -23,7 +23,7 @@ const App = () => {
       text1: 'Low',
       text2: 'Onboarding Illustration',
       
-      imageUrl: '../src/assets/Onprogress1.jpg'
+      imageUrl: '../public/static/Onprogress1.jpg'
     },
     {
       id: 5,
@@ -31,12 +31,12 @@ const App = () => {
       text1: 'Low',
       text2: 'Moodboard',
   
-      imageUrl: '../src/assets/onprogress2.jpg'
+      imageUrl: '../public/static/onprogress2.jpg'
     }
   ]);
 
   const [doneItems, setDoneItems] = useState([
-    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../src/assets/onprogress3.jpg' },
+    { id: 7, title: 'Task 7', text1: 'Completed', text2: 'Mobile App Design',  imageUrl: '../public/static/onprogress3.jpg' },
     { id: 8, title: 'Task 8', text1: 'Completed', text2: 'Design System', description: 'It just needs to adapt the UI from what you did before, but with a more user-friendly interface. ' }
   ]);
 
@@ -140,7 +140,7 @@ const App = () => {
         <div className="w-[38px] h-[38px] bg-blue-500 rounded-full flex items-center justify-center">
           <img
             className="rounded-full w-[38px] h-[38px]"
-            src="../src/assets/Profile.jpg"
+            src="../public/static/Profile.jpg"
             alt="Profile"
           />
         </div>

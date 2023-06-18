@@ -95,7 +95,7 @@ const SideBar = () => {
           <hr className="w-56 h-0.3 border border-gray-300 mt-[20px]" />
               <div className=" relative mt-14 h-[206px] p-4 w-[233px] rounded-[10px] border-4 bg-white ">
               <div className="absolute rounded-full h-16 w-16 bg-white translate-y-[-54px] translate-x-16" >
-  <img className=" w-16 h-16 rounded-full" src="../src/assets/tube.jpg" alt="" />
+  <img className=" w-16 h-16 rounded-full" src="../static/tube.jpg" alt="" />
 </div>
   <h5 className="pt-[8px] text-center font-bold">Thoughts Time</h5>
   <p className="text-center text-gray-500">We don't have any notice for you, till then you can share your thoughts with your peers.</p>
