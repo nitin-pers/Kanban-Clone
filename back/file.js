@@ -1,0 +1,1 @@
+var as=document.getElementById("ui")
